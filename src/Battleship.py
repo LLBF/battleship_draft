@@ -559,7 +559,7 @@ def run():
 
                     elif shoot in ship4_m:
                         for i in ship4_m:
-                            if ship4_m[0] == shoot or ship4_m[1] == shoot or ship4_m[2] == shoot or ship4_m[3] == disparo:
+                            if ship4_m[0] == shoot or ship4_m[1] == shoot or ship4_m[2] == shoot or ship4_m[3] == shoot:
                                 if ship4_m[0] in disp_2 and ship4_m[1] in disp_2 and ship4_m[2] in disp_2 and ship4_m[3] in disp_2:
                                     print("SUNK")
                                     break
